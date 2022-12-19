@@ -6,7 +6,7 @@ export function renderProducts (products){
         <div class="product-col bd-bt animate__animated animate__bounceInUp">
         <img class="product-img "src="${product.img}" alt="">
         <div class="product-details">
-            <h3>${product.name}</h3>
+            <p class="text-bold text-md">${product.name}</p>
             <p class="text-sm">${product.details}</p>
             <p class="text-md">$${product.price}</p>
         </div>
