@@ -37,11 +37,11 @@ export function renderCart(){
     let cartHtml =``
     cartHtml = `
     <div class="col-6 bd-bt">
-    <h2 class="text-center">Your Order</h2>
+    <h2 class="text-center mt-3">Your Order</h2>
     </div>
     <div class="order-bg">
         <h4 class="total">Total Price: <span class="text-right">$${totalPrice}</span></h4>
-        <button class="order text-bold" id="orderBtn">Complete Order</button>
+        <button class="order mt-1 text-bold" id="orderBtn">Complete Order</button>
         </div>
         `
     document.getElementById('orderSection').innerHTML = cartHtml
