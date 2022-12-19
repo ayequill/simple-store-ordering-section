@@ -3,8 +3,8 @@ export function renderProducts (products){
     products.forEach((product)=>{
 
         html += `   
-        <div class="product-col bd-bt">
-        <img class="product-img"src="${product.img}" alt="">
+        <div class="product-col bd-bt animate__animated animate__bounceInUp">
+        <img class="product-img "src="${product.img}" alt="">
         <div class="product-details">
             <h3>${product.name}</h3>
             <p class="text-sm">${product.details}</p>
